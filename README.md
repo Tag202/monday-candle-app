@@ -164,9 +164,26 @@ The application focuses on unit testing the core business logic in the Service l
 
 - **No End-to-End (E2E) Tests**: E2E tests were not implemented as the focus is on isolated unit testing of services. These tests would typically require more resources and are not needed given the scope of the application.
 
----
+
+## Automations in the Board
+
+In order to streamline the workflow and ensure better tracking of items, I've implemented the following automations:
 
 
+1. Automatic Status Updates:
+When a new item is created, the status is automatically set to NEW. This helps to easily identify new tasks and ensures they are immediately placed in the appropriate category.
+
+2. Automatic Created At and Created By:
+Both the Created At and Created By fields are populated automatically when an item is created. This ensures accurate tracking of when and by whom the task was added, without requiring manual input.
+
+3. Notification for Created At:
+A notification is triggered whenever the Created At field is updated, so the team is immediately aware of when new tasks are added.
+
+4. Automatic Completion Timestamp:
+When the status of an item changes to DONE, the Completed At field is updated automatically. This helps to easily track when tasks are completed, without needing to manually update
+
+
+These automations are designed to improve efficiency, reduce the need for manual input, and ensure accurate tracking of task progress throughout the workflow.
 
 ## Installation, Running and Testing
 
