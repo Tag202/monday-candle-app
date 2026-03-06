@@ -296,7 +296,7 @@ The `.env` file should be created in the `src` directory for the server.
 This file contains configuration for your server and database, as well as Monday.com integration settings.
 
 The file should contain the following keys: 
-
+```
 PORT=<your_app_port, (e.g - 8080)>
 BROWSER=none
 MONDAY_SIGNING_SECRET=<your Monday.com signing secret used to authenticate API requests from your app.>
@@ -311,7 +311,7 @@ DB_USER=<the PostgreSQL username that connects to your database (e.g., `postgres
 DB_PASSWORD=<the password for the PostgreSQL user used to connect to the database>
 
 ALLOWED_CLIENT_URLS=<a comma-separated list of allowed client URLs for CORS. This defines which domains can interact with your API (e.g., http://localhost:8301).>
-
+```
 
 #### 2. **Client `.env` Configuration**:
 The `.env` file should be created in the `client` directory for the client. 
@@ -319,9 +319,11 @@ This file contains configuration for your server and database, as well as Monday
 
 The file should contains the following keys:
 
+```
 PORT=<your_app_port(e.g - 8301)>
 BROWSER=none
 REACT_APP_API_BASE_URL=<the base URL of your backend API. For local development, this points to the local server. Update this URL for production or other environments.(e.g - http://localhost:8080)>
+```
 
 ### Running the Application
 
