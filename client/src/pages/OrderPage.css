@@ -1,0 +1,13 @@
+.order-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 16px;
+  overflow: visible;
+}
+
+.order-page-container {
+  width: 100%;
+  max-width: 640px;
+  overflow: visible;
+}

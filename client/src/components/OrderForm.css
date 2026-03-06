@@ -1,0 +1,58 @@
+.order-form {
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+}
+
+.order-title {
+  margin-bottom: 8px;
+  text-align: center; 
+}
+
+.order-subtitle {
+  margin-bottom: 24px;
+  color: #666;
+  text-align: center; 
+}
+
+.order-alert {
+  margin-bottom: 16px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order-alert [data-testid="text"] {
+  margin: 0;
+}
+
+.form-field {
+  margin-top: 16px;
+}
+
+.fragrance-dropdown .dropdownMenuWrapper{
+  max-height: 240px !important;
+  overflow-y: auto !important;
+}
+
+.form-field:first-of-type {
+  margin-top: 0;
+}
+
+.counter-text {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+.form-button {
+  margin-top: 32px;
+}
+
+.form-button button {
+  width: 100%;
+}
+
+.form-wrapper {
+  overflow: visible;
+}
